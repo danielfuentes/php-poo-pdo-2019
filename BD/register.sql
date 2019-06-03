@@ -32,7 +32,7 @@ CREATE TABLE `users` (
   `password` varchar(200) NOT NULL,
   `role` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -41,7 +41,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'Angel Daniel Fuentes','dfuentes@digitalhouse.com','5cf35c98ce35a.jpg','$2y$10$5vd6MJ1aA8.NTBl4txORhec3P0NsnF.qbKNbHOHYlREquDEFcNkPS',1);
+INSERT INTO `users` VALUES (1,'Angel Daniel Fuentes','dfuentes@digitalhouse.com','5cf35c98ce35a.jpg','$2y$10$5vd6MJ1aA8.NTBl4txORhec3P0NsnF.qbKNbHOHYlREquDEFcNkPS',9),(2,'Hernan Facundo','herni@digitalhouse.com','5cf49ed194002.jpg','$2y$10$bCM4J6FgaxuBqZosAiiUluWyIbSQ8.TZNHIYcbbDRTeSUF4DrcUlW',1);
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -58,4 +58,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-06-02  2:57:02
+-- Dump completed on 2019-06-03  1:21:47

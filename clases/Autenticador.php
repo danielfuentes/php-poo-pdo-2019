@@ -9,9 +9,10 @@ class Autenticador{
         return password_verify($password,$passwordHash);
     }
     static public function seteoSesion($user){
+        
         $_SESSION["name"]=$user["name"];
         $_SESSION["email"] = $user["email"];
-        $_SESSION["role"]= $user["rol"];
+        $_SESSION["role"]= $user["role"];
         $_SESSION["avatar"]= $user["avatar"];
     }
     static public function seteoCookie($user){

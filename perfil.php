@@ -24,6 +24,11 @@ if(!isset($_SESSION["email"])) {
       <p>
       <img src="imagenes/<?=$_SESSION["avatar"];?>" alt="Avatar" >
       </p>
+     <p>
+     <?php if($_SESSION["role"]==9):?>
+        <a href="listadoUsuariosAdmin.php">Administración de Usuarios</a>
+     <?php endif;?>
+     </p>
       <a href="logout.php">Cerrar Sesión</a>
       </article> 
     </section>

@@ -8,6 +8,7 @@ require_once("clases/BaseJSON.php");
 require_once("clases/Encriptar.php");
 require_once("clases/Autenticador.php");
 require_once("clases/BaseMYSQL.php");
+require_once("clases/Query.php");
 
 
 //Declaro mis variables
